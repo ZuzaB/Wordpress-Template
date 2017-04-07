@@ -9,11 +9,11 @@
 				</div>
 				<div class="column">
 					<h4>Facebook</h4>
-					<img src="img/widget-fb.png" alt="facebook-widget">
+					<img src="<?php echo bloginfo('template_directory'); ?>/img/widget-fb.png" alt="facebook-widget">
 				</div>
 				<div class="column">
 					<h4>Instagram</h4>
-					<img src="img/widget-in.png" alt="instagram-widget">
+					<img src="<?php echo bloginfo('template_directory'); ?>/img/widget-in.png" alt="instagram-widget">
 				</div>
 			</div>
 		</div>
@@ -25,6 +25,7 @@
 		</div>
 	</footer>
 	<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <script src="js/app.js" type="text/javascript"></script>
+    <script src="<?php bloginfo(template_directory); ?>/js/app.js" type="text/javascript"></script>
+<?php wp_footer();?>
 </body>
 </html>
